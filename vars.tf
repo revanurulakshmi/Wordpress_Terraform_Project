@@ -28,7 +28,7 @@ variable "ec2_instance_type" {
 
 variable "key_name" {
   description = "Name of the EC2 key pair"
-  default     = "vockey"
+  default     = "Lakshmi_IAM"
 }
 
 # Variables for RDS DB instance
