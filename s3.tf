@@ -15,7 +15,7 @@ resource "aws_s3_bucket_versioning" "versioningS3" {
   }
 }
 
-resource "aws_s3_bucket_policy" "cloudtrail_bucket_policy" {
+/* resource "aws_s3_bucket_policy" "cloudtrail_bucket_policy" {
   bucket = "s3-bucket-2024-04-12-2973"
 
   policy = jsonencode({
@@ -47,7 +47,7 @@ resource "aws_s3_bucket_policy" "cloudtrail_bucket_policy" {
     ]
   })
 }
-
+*/
 
 /*
 {
